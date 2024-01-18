@@ -1,3 +1,5 @@
+name: Release changelog
+on: push
 jobs:
   infer-version:
     name: Infer the repository version with Nyx
