@@ -1,16 +1,25 @@
 name: Release changelog
 on: push
+permissions: write-all
 jobs:
   infer-version:
-    name: Infer the repository version with Nyx
+    name: Publish the release (if any) with Nyx
     runs-on: ubuntu-latest
     steps:
-    - name: Git checkout
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-    - name: Nyx infer
-      id: nyx
-      uses: mooltiverse/nyx-github-action@main
-    - name: Print version # This step uses the version inferred by Nyx
-      run: echo the inferred version is ${{ steps.nyx.outputs.version }}
+      - name: Git checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Nyx publish
+        id: nyx
+        uses: mooltiverse/nyx-github-action@main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NYX_VERBOSITY: 'INFO'
+        with:
+          command: 'publish'
+          changelogPath: 'CHANGELOG.md'
+          preset: 'extended'
+          releaseLenient: 'true'
+          stateFile: '.nyx-state.json'
+          summaryFile: '.nyx-summary.txt'
