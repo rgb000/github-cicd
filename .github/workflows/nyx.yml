@@ -32,7 +32,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NYX_VERBOSITY: 'DEBUG'
         with:
-          command: 'publish'
+          command: 'mark'
           changelogPath: 'CHANGELOG.md'
           preset: 'extended'
           releaseLenient: 'true'
