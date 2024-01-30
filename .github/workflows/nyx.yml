@@ -15,7 +15,7 @@ jobs:
         uses: mooltiverse/nyx-github-action@main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NYX_VERBOSITY: 'INFO'
+          NYX_VERBOSITY: 'DEBUG'
         with:
           command: 'publish'
           changelogPath: 'CHANGELOG.md'
@@ -23,4 +23,3 @@ jobs:
           releaseLenient: 'true'
           stateFile: '.nyx-state.json'
           summaryFile: '.nyx-summary.txt'
-          
