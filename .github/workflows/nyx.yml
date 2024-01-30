@@ -1,0 +1,40 @@
+name: Example publishing a (new) version using Nyx
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  id-token: write
+  issues: write
+  discussions: write
+  packages: write
+  pages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+
+on: [push]
+
+jobs:
+  infer-version:
+    name: Publish a version with Nyx (if needed)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Nyx publish
+        id: nyx
+        uses: mooltiverse/nyx-github-action@main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NYX_VERBOSITY: 'DEBUG'
+        with:
+          command: 'mark'
+          changelogPath: 'CHANGELOG.md'
+          preset: 'extended'
+          releaseLenient: 'true'
+          stateFile: '.nyx-state.json'
+          summaryFile: '.nyx-summary.txt'

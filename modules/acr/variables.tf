@@ -1,11 +1,11 @@
 variable "name_prefix" {
   type        = string
-  description = "Prefix for random generated name"
+  description = "Prefix for random generated name."
 }
 
 variable "location" {
   type        = string
-  description = "Azure region"
+  description = "Azure region."
 }
 
 variable "resource_group_name" {
