@@ -1,6 +1,6 @@
 variable "name_prefix" {
   type        = string
-  description = "Prefix for random generated name"
+  description = "Prefix for random generated name."
 }
 
 variable "location" {
