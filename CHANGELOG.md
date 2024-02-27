@@ -1,3 +1,20 @@
+## [1.7.0](https://github.com/rgb000/github-cicd/compare/v1.6.0...v1.7.0) (2024-02-27)
+
+
+### Features
+
+* test 2 ([4ca57e2](https://github.com/rgb000/github-cicd/commit/4ca57e255ecd5c57c7fad58d48cfaac3ebbcf9e5))
+
+
+### Bug Fixes
+
+* test 2 ([64116d7](https://github.com/rgb000/github-cicd/commit/64116d745cf31d67529a50310f5c75bbb37d2a7a))
+
+
+### Performance Improvements
+
+* test 2 ([019c6cc](https://github.com/rgb000/github-cicd/commit/019c6cc522894c546bf5410fda3452d233087382))
+
 ## [1.6.0](https://github.com/rgb000/github-cicd/compare/v1.5.0...v1.6.0) (2024-02-27)
 
 
@@ -47,11 +64,4 @@
 
 * add ip module ([b18eb82](https://github.com/rgb000/github-cicd/commit/b18eb825ca8014a843001166af33cc9399a76cd4))
 * **ip:** updated module outputs ([83deb8c](https://github.com/rgb000/github-cicd/commit/83deb8c2d7da361f90cd7cc57aed619122512091))
-
-## [1.1.1](https://github.com/rgb000/github-cicd/compare/v1.1.0...v1.1.1) (2024-02-27)
-
-
-### Bug Fixes
-
-* **aks:** renamed module ([#18](https://github.com/rgb000/github-cicd/issues/18)) ([55cea5c](https://github.com/rgb000/github-cicd/commit/55cea5c886f212f34b28b28a91b2585eea6863ad))
 
