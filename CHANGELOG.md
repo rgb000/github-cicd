@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/rgb000/github-cicd/compare/v1.4.0...v1.5.0) (2024-02-27)
+
+
+### Features
+
+* message1 ([095e1b1](https://github.com/rgb000/github-cicd/commit/095e1b1476a8b74114d94449f68f6dce1969e8a6))
+
+
+### Performance Improvements
+
+* message1 ([470673a](https://github.com/rgb000/github-cicd/commit/470673a8834ddb0ef18af0723618181b9bad8f52))
+
+
+
 # [1.4.0](https://github.com/rgb000/github-cicd/compare/v1.2.0...v1.4.0) (2024-02-27)
 
 
@@ -38,21 +52,6 @@
 ### Features
 
 * **acr:** removed output ([#17](https://github.com/rgb000/github-cicd/issues/17)) ([078a6cd](https://github.com/rgb000/github-cicd/commit/078a6cd79a3a0482d8134703328cebff09cadde4))
-
-
-
-# [1.0.0](https://github.com/rgb000/github-cicd/compare/v0.4.0...v1.0.0) (2024-02-27)
-
-
-### Features
-
-* add dns module ([fbeb6d0](https://github.com/rgb000/github-cicd/commit/fbeb6d0a7ea2aafcd0e64ff0ca4e205a0a3b790b))
-* **aks:** new module name ([cf4a80d](https://github.com/rgb000/github-cicd/commit/cf4a80dacac45beb7e81f9f0e288b42196869802))
-
-
-### BREAKING CHANGES
-
-* **aks:** new module name instead of aks
 
 
 
