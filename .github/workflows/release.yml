@@ -7,18 +7,17 @@ on:
 jobs:
   changelog:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Conventional Changelog Action
+    steps:
+      - uses: actions/checkout@v3
+      - name: conventional Changelog Action
         id: changelog
-        uses: TriPSs/conventional-changelog-action@v5
+        uses: TriPSs/conventional-changelog-action@v5.1.0
         with:
+          preset: "conventionalcommits"
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create release Action
+      - name: create release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
