@@ -12,3 +12,8 @@ output "url" {
   value       = azurerm_container_registry.this.login_server
   description = "URL for registry login"
 }
+
+output "url2" {
+  value       = azurerm_container_registry.this.login_server
+  description = "URL for registry login"
+}
