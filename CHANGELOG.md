@@ -1,3 +1,13 @@
+# [1.2.0](https://github.com/rgb000/github-cicd/compare/v1.1.1...v1.2.0) (2024-02-27)
+
+
+### Features
+
+* add ip module ([b18eb82](https://github.com/rgb000/github-cicd/commit/b18eb825ca8014a843001166af33cc9399a76cd4))
+* **ip:** updated module outputs ([83deb8c](https://github.com/rgb000/github-cicd/commit/83deb8c2d7da361f90cd7cc57aed619122512091))
+
+
+
 ## [1.1.1](https://github.com/rgb000/github-cicd/compare/v1.1.0...v1.1.1) (2024-02-27)
 
 
@@ -42,15 +52,6 @@
 ### Features
 
 * **acr:** add diagnostic settings ([7ccaead](https://github.com/rgb000/github-cicd/commit/7ccaead0a8bcb3cc6327cfd3ef27c4d60d736bde))
-
-
-
-# [0.3.0](https://github.com/rgb000/github-cicd/compare/v0.2.0...v0.3.0) (2024-02-27)
-
-
-### Features
-
-* add aks module ([8cbb4d1](https://github.com/rgb000/github-cicd/commit/8cbb4d1c79c654d1e049ed39d9938f2ac72a894f))
 
 
 
