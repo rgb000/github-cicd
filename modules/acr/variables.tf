@@ -16,7 +16,7 @@ variable "resource_group_name" {
 variable "random_string_length" {
   type        = number
   description = "Random string length used in resource name"
-  default     = 5
+  default     = 6
 }
 
 variable "admin_enabled" {
