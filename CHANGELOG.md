@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/rgb000/github-cicd/compare/v1.0.0...v1.1.0) (2024-02-27)
+
+
+### Features
+
+* **acr:** removed output ([#17](https://github.com/rgb000/github-cicd/issues/17)) ([078a6cd](https://github.com/rgb000/github-cicd/commit/078a6cd79a3a0482d8134703328cebff09cadde4))
+
+
+
 # [1.0.0](https://github.com/rgb000/github-cicd/compare/v0.4.0...v1.0.0) (2024-02-27)
 
 
