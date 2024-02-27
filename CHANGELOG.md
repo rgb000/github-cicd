@@ -1,3 +1,17 @@
+# [1.3.0](https://github.com/rgb000/github-cicd/compare/v1.2.0...v1.3.0) (2024-02-27)
+
+
+### Bug Fixes
+
+* **aks:** fixed output ([3b05e9a](https://github.com/rgb000/github-cicd/commit/3b05e9a54934c6f6100e3c281c94b1ad98330797))
+
+
+### Features
+
+* add api module ([d667d4d](https://github.com/rgb000/github-cicd/commit/d667d4da8c0f3215b43234ec488f112a7a9bdd98))
+
+
+
 # [1.2.0](https://github.com/rgb000/github-cicd/compare/v1.1.1...v1.2.0) (2024-02-27)
 
 
@@ -38,20 +52,6 @@
 ### BREAKING CHANGES
 
 * **aks:** new module name instead of aks
-
-
-
-# [0.4.0](https://github.com/rgb000/github-cicd/compare/v0.3.0...v0.4.0) (2024-02-27)
-
-
-### Bug Fixes
-
-* **acr:** changed outputs ([8eefef7](https://github.com/rgb000/github-cicd/commit/8eefef7a4c1711a25164af8a61d1173bee0b82a2))
-
-
-### Features
-
-* **acr:** add diagnostic settings ([7ccaead](https://github.com/rgb000/github-cicd/commit/7ccaead0a8bcb3cc6327cfd3ef27c4d60d736bde))
 
 
 
