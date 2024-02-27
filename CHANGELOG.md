@@ -1,3 +1,17 @@
+# [0.4.0](https://github.com/rgb000/github-cicd/compare/v0.3.0...v0.4.0) (2024-02-27)
+
+
+### Bug Fixes
+
+* **acr:** changed outputs ([8eefef7](https://github.com/rgb000/github-cicd/commit/8eefef7a4c1711a25164af8a61d1173bee0b82a2))
+
+
+### Features
+
+* **acr:** add diagnostic settings ([7ccaead](https://github.com/rgb000/github-cicd/commit/7ccaead0a8bcb3cc6327cfd3ef27c4d60d736bde))
+
+
+
 # [0.3.0](https://github.com/rgb000/github-cicd/compare/v0.2.0...v0.3.0) (2024-02-27)
 
 
