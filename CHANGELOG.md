@@ -1,4 +1,4 @@
-# [1.3.0](https://github.com/rgb000/github-cicd/compare/v1.2.0...v1.3.0) (2024-02-27)
+# [1.4.0](https://github.com/rgb000/github-cicd/compare/v1.2.0...v1.4.0) (2024-02-27)
 
 
 ### Bug Fixes
@@ -9,6 +9,7 @@
 ### Features
 
 * add api module ([d667d4d](https://github.com/rgb000/github-cicd/commit/d667d4da8c0f3215b43234ec488f112a7a9bdd98))
+* some changes ([29b6840](https://github.com/rgb000/github-cicd/commit/29b684023e21b9d48642aeb78f6df7e4f6e0de27))
 
 
 
