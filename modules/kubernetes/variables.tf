@@ -19,12 +19,6 @@ variable "random_string_length" {
   default     = 6
 }
 
-variable "admin_enabled" {
-  type        = bool
-  description = "Enabled Admin user"
-  default     = false
-}
-
 variable "sku" {
   type        = string
   description = "Pricing plan"
