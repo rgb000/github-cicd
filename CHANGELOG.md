@@ -1,4 +1,13 @@
-# 0.2.0 (2024-02-27)
+# [0.3.0](https://github.com/rgb000/github-cicd/compare/v0.2.0...v0.3.0) (2024-02-27)
+
+
+### Features
+
+* add aks module ([8cbb4d1](https://github.com/rgb000/github-cicd/commit/8cbb4d1c79c654d1e049ed39d9938f2ac72a894f))
+
+
+
+# [0.2.0](https://github.com/rgb000/github-cicd/compare/7d25f8d3d3be12dba73729ea55ab256e684978d7...v0.2.0) (2024-02-27)
 
 
 ### Bug Fixes
