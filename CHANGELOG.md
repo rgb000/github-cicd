@@ -1,3 +1,18 @@
+# [1.0.0](https://github.com/rgb000/github-cicd/compare/v0.4.0...v1.0.0) (2024-02-27)
+
+
+### Features
+
+* add dns module ([fbeb6d0](https://github.com/rgb000/github-cicd/commit/fbeb6d0a7ea2aafcd0e64ff0ca4e205a0a3b790b))
+* **aks:** new module name ([cf4a80d](https://github.com/rgb000/github-cicd/commit/cf4a80dacac45beb7e81f9f0e288b42196869802))
+
+
+### BREAKING CHANGES
+
+* **aks:** new module name instead of aks
+
+
+
 # [0.4.0](https://github.com/rgb000/github-cicd/compare/v0.3.0...v0.4.0) (2024-02-27)
 
 
