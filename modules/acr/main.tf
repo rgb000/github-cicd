@@ -12,3 +12,9 @@ resource "azurerm_container_registry" "this" {
   admin_enabled       = var.admin_enabled
   tags                = var.tags
 }
+
+resource "random_string" "diagnostic" {
+  length  = var.random_string_length
+  special = false
+  upper   = false
+}
