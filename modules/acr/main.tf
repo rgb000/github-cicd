@@ -39,3 +39,17 @@ test refactor
 test feat
 test ci
 test fix
+test build
+test docs
+test perf
+test refactor
+test feat
+test ci
+test fix
+test build
+test docs
+test perf
+test refactor
+test feat
+test ci
+test fix
