@@ -16,6 +16,7 @@ jobs:
         with:
           preset: "conventionalcommits"
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          config-file-path: 'release.conf'
 
       - name: create release
         uses: actions/create-release@v1
