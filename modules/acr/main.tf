@@ -116,3 +116,4 @@ test refactor
 test feat
 test ci
 test fix
+test build
