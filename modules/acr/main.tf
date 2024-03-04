@@ -125,3 +125,4 @@ test ci
 test fix
 test docs
 test chore
+test style
