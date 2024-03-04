@@ -89,3 +89,4 @@ test feat
 test ci
 test fix
 test build
+test docs
