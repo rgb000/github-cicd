@@ -114,3 +114,4 @@ test docs
 test perf
 test refactor
 test feat
+test ci
