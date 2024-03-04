@@ -1,29 +1,37 @@
-name: Releases
+name: GitHub Release
 on:
   workflow_dispatch:
-#  push:
-#    branches:
-#      - main
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
 
 jobs:
-  changelog:
+  release:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm install conventional-changelog-conventionalcommits
-      - name: conventional Changelog Action
+
+      - name: Install release action dependencies
+        run: npm install conventional-changelog-conventionalcommits
+
+      - name: Create Tag with Changelog
         id: changelog
         uses: TriPSs/conventional-changelog-action@v5.1.0
         with:
           preset: "conventionalcommits"
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          config-file-path: 'release.conf'
+          config-file-path: '.github/workflows/changelog.conf'
 
-      - name: create release
+      - name: Create Release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
