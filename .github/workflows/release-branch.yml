@@ -10,10 +10,12 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-
+    environment: dev
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Setup NodeJS
         uses: actions/setup-node@v3
@@ -28,7 +30,7 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v5.1.0
         with:
           preset: "conventionalcommits"
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.PAT }}
           config-file-path: '.github/workflows/changelog.conf'
           output-file: "false"
           skip-version-file: "true"
@@ -39,7 +41,7 @@ jobs:
       - name: Create release branch
         uses: peterjgrainger/action-create-branch@v2.2.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
           branch: 'release-${{ steps.changelog.outputs.tag }}'
           sha: '${{ github.event.pull_request.head.sha }}'

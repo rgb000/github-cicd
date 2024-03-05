@@ -13,10 +13,12 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-
+    environment: dev
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Setup NodeJS
         uses: actions/setup-node@v3
@@ -31,14 +33,14 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v5.1.0
         with:
           preset: "conventionalcommits"
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.PAT }}
           config-file-path: '.github/workflows/changelog.conf'
 
       - name: Create Release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
