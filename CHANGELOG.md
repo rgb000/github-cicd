@@ -1,4 +1,31 @@
+## [1.14.0](https://github.com/rgb000/github-cicd/compare/v1.13.0...v1.14.0) (2024-03-05)
+
+
+### Features
+
+* dns44 module ([a044b40](https://github.com/rgb000/github-cicd/commit/a044b40c6124c1355349a9d6b7bd3b34519d79b2))
+* network module ([9d771a3](https://github.com/rgb000/github-cicd/commit/9d771a3048b399dde554398f5d1d023cba414fc1))
+* nsg module ([0347bba](https://github.com/rgb000/github-cicd/commit/0347bba5ac2d7099a6046b93071bcc3cbd6819e6))
+* signal module ([72d4786](https://github.com/rgb000/github-cicd/commit/72d47869231fdc1451830555b2a86bd80f6d8319))
+
+
+### Refactor
+
+* space added ([fa6d337](https://github.com/rgb000/github-cicd/commit/fa6d337722244c9749f17b396f71a2b5049f5ab3))
+
+
+### CI/CD changes
+
+* PAT instead of GITHUB_TOKEN ([c48a440](https://github.com/rgb000/github-cicd/commit/c48a440bd8871868b7bd3122d84ac4fa972a2c43))
+* release branch automation ([8446a69](https://github.com/rgb000/github-cicd/commit/8446a69a4974e8a3bcdc5f09a7902939ec26dd1b))
+* rename ([768a527](https://github.com/rgb000/github-cicd/commit/768a527ecaef12e7a79ee9ba224cb5b843a85d32))
+
 ## [1.13.0](https://github.com/rgb000/github-cicd/compare/v1.11.1...v1.13.0) (2024-03-05)
+
+
+### Generic changes
+
+* **release:** v1.13.0 [skip ci] ([730b3af](https://github.com/rgb000/github-cicd/commit/730b3afe330d0daa7d6357e9fa67381d608413c5))
 
 ## [1.12.0](https://github.com/rgb000/github-cicd/compare/v1.11.0...v1.12.0) (2024-03-05)
 
@@ -110,42 +137,4 @@
 
 * added new changes into test section ([ec48e8a](https://github.com/rgb000/github-cicd/commit/ec48e8ad04936d9557114b6f69a8bcd1e98cc8c6))
 * another changes into test section ([c275550](https://github.com/rgb000/github-cicd/commit/c275550659cdb66f4b10de6afb96da209f250f5e))
-
-## [1.10.0](https://github.com/rgb000/github-cicd/compare/v1.9.0...v1.10.0) (2024-03-04)
-
-
-### Features
-
-* test ([75b5c6f](https://github.com/rgb000/github-cicd/commit/75b5c6f615961909906c73262714ac56332fc83f))
-* test ([dc2b4e6](https://github.com/rgb000/github-cicd/commit/dc2b4e6875553026f66017d907414d6078689141))
-
-
-### Bug fixes
-
-* test ([2c1a0ae](https://github.com/rgb000/github-cicd/commit/2c1a0ae0a28b67e2e3967521559d9482d0c2ddac))
-* test ([afe0893](https://github.com/rgb000/github-cicd/commit/afe08936d98478108b39d6ffe2f93add79824e96))
-
-
-### Generic changes
-
-* **release:** v1.10.0 [skip ci] ([660cde5](https://github.com/rgb000/github-cicd/commit/660cde55d3e418651bfbf07074697b101d6ee01a))
-
-
-### Documentation
-
-* test ([77edc5e](https://github.com/rgb000/github-cicd/commit/77edc5efb5413a8ec60cca089b5371a41235662e))
-* test ([8f660e3](https://github.com/rgb000/github-cicd/commit/8f660e304cbdd013ab85bb30752287d4fa14f027))
-
-
-### Refactor
-
-* test ([cb70336](https://github.com/rgb000/github-cicd/commit/cb70336bf042ef4d141d98f2833c86dda7f27e70))
-* test ([9f22564](https://github.com/rgb000/github-cicd/commit/9f225641cbcb0a9aac6bac274cbcb0088c393ae6))
-
-
-### CI/CD changes
-
-* new tests ([8920e85](https://github.com/rgb000/github-cicd/commit/8920e85f6aecf257dd985f14f4595a9de6fb9c0b))
-* test ([b201c16](https://github.com/rgb000/github-cicd/commit/b201c16943db260e8c7845cb791c4f9a00b8ce33))
-* test ([8ef27e2](https://github.com/rgb000/github-cicd/commit/8ef27e24f8ae1010dac459861277e19976c3bf7b))
 
