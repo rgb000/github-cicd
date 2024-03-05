@@ -1,3 +1,21 @@
+## [1.12.0](https://github.com/rgb000/github-cicd/compare/v1.11.0...v1.12.0) (2024-03-05)
+
+
+### Features
+
+* add module docker ([9e6173b](https://github.com/rgb000/github-cicd/commit/9e6173b36220313d2910e31ce94ae9481d1e2495))
+* module front door ([e833ab8](https://github.com/rgb000/github-cicd/commit/e833ab80e34e9618a5309000efb75d1bdf2a987b))
+
+
+### Documentation
+
+* **docker:** readme file ([daa95ea](https://github.com/rgb000/github-cicd/commit/daa95ea70624061faa76a4959060d893fd50cceb))
+
+
+### CI/CD changes
+
+* workflow trigger for release branch ([0cda3bb](https://github.com/rgb000/github-cicd/commit/0cda3bb1f41dcd04cada53b72fdb705dd531b82c))
+
 ## [1.11.0](https://github.com/rgb000/github-cicd/compare/v1.10.0...v1.11.0) (2024-03-04)
 
 
@@ -17,6 +35,7 @@
 
 * added new changes into chore section ([ec48e87](https://github.com/rgb000/github-cicd/commit/ec48e8758b1b37b3f3d1cf2eb2301adecd8a2d5c))
 * another changes into chore section ([9df2e50](https://github.com/rgb000/github-cicd/commit/9df2e506a2591a319ef30d6170ffdfdb7b19c4e9))
+* **release:** v1.11.0 [skip ci] ([4bb6f3b](https://github.com/rgb000/github-cicd/commit/4bb6f3b7afef525e7eac1f406a07cbe80091a42d))
 
 
 ### Documentation
@@ -209,36 +228,4 @@
 * fix workflow ([637e7ff](https://github.com/rgb000/github-cicd/commit/637e7ff9fff2e6ad6e7390c86313c60b47a46e41))
 * test 3 ([8be0b24](https://github.com/rgb000/github-cicd/commit/8be0b241116dd3bcbb38012f8f71cc754e7a2be8))
 * test 4 ([93bc684](https://github.com/rgb000/github-cicd/commit/93bc684c44fc3bedff4a347b973a8b4f1539b02b))
-
-## [1.7.0](https://github.com/rgb000/github-cicd/compare/v1.6.0...v1.7.0) (2024-02-27)
-
-
-### Features
-
-* test 2 ([4ca57e2](https://github.com/rgb000/github-cicd/commit/4ca57e255ecd5c57c7fad58d48cfaac3ebbcf9e5))
-
-
-### Bug fixes
-
-* test 2 ([64116d7](https://github.com/rgb000/github-cicd/commit/64116d745cf31d67529a50310f5c75bbb37d2a7a))
-
-
-### Generic changes
-
-* **release:** v1.7.0 [skip ci] ([37e6fea](https://github.com/rgb000/github-cicd/commit/37e6feadca23ca9c6333065626887a96d7d6f192))
-
-
-### Documentation
-
-* test 2 ([960f13d](https://github.com/rgb000/github-cicd/commit/960f13dd3756a9df0ab9a09ae9cd5a6c4950b4f4))
-
-
-### Refactor
-
-* test 2 ([98e82a2](https://github.com/rgb000/github-cicd/commit/98e82a27880dd4ab48a2e9983685179186b169ce))
-
-
-### CI/CD changes
-
-* test 2 ([ce902a8](https://github.com/rgb000/github-cicd/commit/ce902a8945aec1a9adb668b2ee41818e4d73a1bf))
 
