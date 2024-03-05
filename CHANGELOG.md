@@ -1,3 +1,21 @@
+## [1.12.0](https://github.com/rgb000/github-cicd/compare/v1.11.0...v1.12.0) (2024-03-05)
+
+
+### Features
+
+* add module docker ([9e6173b](https://github.com/rgb000/github-cicd/commit/9e6173b36220313d2910e31ce94ae9481d1e2495))
+* module front door ([e833ab8](https://github.com/rgb000/github-cicd/commit/e833ab80e34e9618a5309000efb75d1bdf2a987b))
+
+
+### Documentation
+
+* **docker:** readme file ([daa95ea](https://github.com/rgb000/github-cicd/commit/daa95ea70624061faa76a4959060d893fd50cceb))
+
+
+### CI/CD changes
+
+* workflow trigger for release branch ([0cda3bb](https://github.com/rgb000/github-cicd/commit/0cda3bb1f41dcd04cada53b72fdb705dd531b82c))
+
 ## [1.11.1](https://github.com/rgb000/github-cicd/compare/v1.11.0...v1.11.1) (2024-03-05)
 
 
