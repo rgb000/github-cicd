@@ -1,4 +1,4 @@
-name: GitHub Release
+name: Gangelog
 on:
   workflow_dispatch:
   push:

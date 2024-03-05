@@ -1,4 +1,4 @@
-name: GitHub Release
+name: Release branch
 on:
   workflow_dispatch:
   pull_request:
